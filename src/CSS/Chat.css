@@ -1,0 +1,100 @@
+.ChatPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChatContainer {
+    box-shadow: 0 0 10px 3px rgb(163, 162, 162);
+    background-color: rgb(238, 242, 246);
+    height: 38vmax;
+    height: 483px;
+    width: 28vmax;
+    width: 360px;
+}
+
+.header {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(70, 71, 73);
+
+}
+
+.header h1 {
+    margin-left: 5vmax;
+    margin-left: 80px;
+    color: rgb(70, 71, 73);
+    letter-spacing: 2mm;
+    font-size: x-large;
+}
+
+.app-text {
+    font-weight: 300;
+}
+
+.chatBox {
+    height: 367px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.inputBox {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputBox .sendBtn {
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: rgb(221, 230, 239);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.inputBox .sendBtn:hover {
+    background-color: rgb(200, 219, 234);
+}
+
+/* .inputBox button:hover .inputBox>button>.logo{
+    transform: ;
+} */
+.logo {
+    font-size: xx-large;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover .logo {
+    transform: translateX(5px);
+}
+
+.inputBox input {
+    border: none;
+    outline: none;
+    padding: 13px;
+    font-size: 16px;
+    width: 360px;
+    background-color: rgb(238, 242, 246);
+
+    background: -webkit-linear-gradient(rgb(220, 75, 227)50%, rgb(130, 98, 201)50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    
+}
+.close{
+    font-size: x-large;
+    margin-left: 15px;
+}
+.close:hover{
+    color: rgb(220, 75, 227); 
+}
