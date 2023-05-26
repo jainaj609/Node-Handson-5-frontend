@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // import { BrowserRouter } from "react-router-dom";
 import "./App.css"
 
@@ -7,22 +7,22 @@ import "./App.css"
 import AppFile from "./Components/AppFile";
 
 
-=======
+
 import logo from './logo.svg';
 import './App.css';
->>>>>>> parent of d2b1a65... first commit
+
 
 function App() {
 
  
   return (
     <div className="App">
-<<<<<<< HEAD
+
       {/* <BrowserRouter>
         <Navigation />
       </BrowserRouter> */}
       <AppFile/>
-=======
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -37,7 +37,7 @@ function App() {
           Learn React
         </a>
       </header>
->>>>>>> parent of d2b1a65... first commit
+
     </div>
   );
 }

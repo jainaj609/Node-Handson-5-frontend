@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
-=======
+}
 .App {
   text-align: center;
 }
@@ -39,5 +39,5 @@
   to {
     transform: rotate(360deg);
   }
->>>>>>> parent of d2b1a65... first commit
+
 }
