@@ -6,7 +6,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Messages from './Messages';
 import socketio from 'socket.io-client'
 import ReactScrollToBottom from 'react-scroll-to-bottom'
-const socket = socketio('http://localhost:4000', { transports: ['websocket'] });
+const socket = socketio('https://chatapp-q8ws.onrender.com', { transports: ['websocket'] });
 
 socket.on('connect', () => {
     alert("connected")
