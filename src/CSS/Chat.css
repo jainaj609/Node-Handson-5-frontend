@@ -21,15 +21,16 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(70, 71, 73);
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
-    margin-left: 5vmax;
-    margin-left: 80px;
+    
     color: rgb(70, 71, 73);
     letter-spacing: 2mm;
     font-size: x-large;
+    
 }
 
 .app-text {
@@ -64,9 +65,6 @@
     background-color: rgb(200, 219, 234);
 }
 
-/* .inputBox button:hover .inputBox>button>.logo{
-    transform: ;
-} */
 .logo {
     font-size: xx-large;
     filter: brightness(100) invert();
@@ -88,13 +86,15 @@
     background: -webkit-linear-gradient(rgb(220, 75, 227)50%, rgb(130, 98, 201)50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    
-    
 }
 .close{
     font-size: x-large;
-    margin-left: 15px;
 }
 .close:hover{
     color: rgb(220, 75, 227); 
+}
+@media screen and (min-width:375px)and (max-width:475px){
+    .ChatPage {
+        align-items:start;
+    }  
 }

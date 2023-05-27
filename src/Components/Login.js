@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-// import io from 'socket.io-client'
 import '../CSS/Login.css'
-// const socket = io('http://localhost:4000')
 const Login = () => {
     const navigate = useNavigate();
     const [name, setName] = useState('');

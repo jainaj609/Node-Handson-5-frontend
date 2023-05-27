@@ -1,13 +1,26 @@
 .messageBox{
     width: 50%;
-    padding: 11px;
+    padding: 5px 10px;
     margin: 10px;
     border-radius: 10px;
     display: inline-block;
     clear: both;
     color: rgb(204, 152, 152);
 }
-
+.username {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1mm;
+    /* position: relative; */
+    /* top:-1px;
+    left:-20px 0; */
+    /* color: rgb(113, 109, 109); */
+    color: rgb(114, 116, 118);
+}
+.time{
+    float: right;
+}
 .right{
     float: right;
     background-color: rgb(251, 224, 224);
@@ -18,4 +31,23 @@
     background-color: rgb(251, 224, 249) ;
     color: rgb(204, 152, 201);
   
+}
+.left {
+    background-color: rgb(251, 224, 249) ;
+    color: rgb(204, 152, 201);
+    width: fit-content;
+    /* padding: 5px; */
+    border-radius: 10px;
+    align-self: flex-start;
+    float: left;
+}
+
+.right {
+    float: right;
+    width: fit-content;
+    align-self: flex-end;
+    /* padding: 5px; */
+    border-radius: 10px;
+    background-color: rgb(251, 224, 224);
+
 }
