@@ -93,8 +93,3 @@
 .close:hover{
     color: rgb(220, 75, 227); 
 }
-@media screen and (min-width:375px)and (max-width:475px){
-    .ChatPage {
-        align-items:start;
-    }  
-}
