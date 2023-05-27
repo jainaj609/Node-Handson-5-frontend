@@ -7,6 +7,7 @@
 }
 
 .ChatContainer {
+    box-sizing: border-box;
     box-shadow: 0 0 10px 3px rgb(163, 162, 162);
     background-color: rgb(238, 242, 246);
     height: 38vmax;
@@ -92,4 +93,78 @@
 }
 .close:hover{
     color: rgb(220, 75, 227); 
+}
+@media screen and (max-aspect-ratio:7/10){
+    .ChatContainer {
+        height: 100% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header {
+        padding: 10px 0;
+        justify-content: space-around;
+    }
+    .header h1 {
+
+        color: rgb(70, 71, 73);
+        letter-spacing: 2mm;
+        font-size: 35px;
+        
+    }
+    .header img{
+        height: 60px;
+    }
+    .close{
+        font-size: 40px;
+
+    }
+    .inputBox {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .inputBox input {
+        border: none;
+        outline: none;
+        padding: 13px;
+        font-size: 16px;
+        width: 70%;
+        background-color: rgb(238, 242, 246);
+    
+        background: -webkit-linear-gradient(rgb(220, 75, 227)50%, rgb(130, 98, 201)50%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .inputBox .sendBtn {
+        width: 30%;
+        border: none;
+        outline: none;
+        background-color: rgb(221, 230, 239);
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    
+    .inputBox .sendBtn:hover {
+        background-color: rgb(200, 219, 234);
+    }
+    
+    .logo {
+        font-size: 40px;
+        filter: brightness(100) invert();
+        transition: all 0.3s;
+    }
+    .sendBtn:hover .logo {
+        transform: translateX(10px);
+    }
+    .chatBox {
+        height: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
 }
